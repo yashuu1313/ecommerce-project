@@ -1,0 +1,59 @@
+# Requirements: Automation Exercise E-commerce Website
+
+**Application under test:** https://automationexercise.com
+**Prepared by:** Yashuu
+**Version:** 1.0 
+
+---
+
+## 1. Registration
+
+| ID | Requirement |
+|----|-------------|
+| REQ-01 | User can start signup by entering a name and email address. 
+| REQ-02 | System must not allow signup with an email that is already registered. 
+| REQ-03 | User can complete the account form with title, password, date of birth, first name, last name, address, country, state, city, zip code and mobile number. 
+| REQ-04 | Mandatory fields must show a validation message when left blank. 
+| REQ-05 | After successful registration, system must show an "Account Created" confirmation.
+
+
+## 2. Login and Logout
+
+| ID | Requirement |
+|----|-------------|
+| REQ-06 | Registered user can log in with a valid email and password. 
+| REQ-07 | System must show an error message for incorrect email or password. 
+| REQ-08 | Logged-in user's name must be displayed in the header. 
+| REQ-09 | User can log out and is redirected to the login page. 
+
+## 3. Products and Search
+
+| ID | Requirement |
+|----|-------------|
+| REQ-10 | User can view all products with image, name and price. 
+| REQ-11 | User can search for products by keyword.
+| REQ-12 | System must show a proper result or message when no product matches the search. 
+| REQ-13 | User can filter products by category. 
+| REQ-14 | User can filter products by brand. 
+| REQ-15 | User can open a product detail page showing name, category, price, availability, condition and brand. 
+| REQ-16 | User can submit a review on the product detail page. 
+
+## 4. Cart
+
+| ID | Requirement |
+|----|-------------|
+| REQ-17 | User can add a product to the cart. 
+| REQ-18 | User can set the quantity on the product detail page before adding to the cart. 
+| REQ-19 | User can remove a product from the cart. 
+| REQ-20 | Cart total must equal the sum of (price x quantity) of all items. 
+
+## 5. Checkout and Payment
+
+| ID | Requirement |
+|----|-------------|
+| REQ-21 | Logged-in user can proceed to checkout and review delivery address and order items. 
+| REQ-22 | Guest user must be asked to register or log in before checkout. 
+| REQ-23 | User can add an order comment during checkout. 
+| REQ-24 | User can enter card details and place the order. 
+| REQ-25 | System must show an order confirmation after successful payment. 
+| REQ-26 | User can download the invoice after the order is placed.
