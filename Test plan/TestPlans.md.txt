@@ -1,0 +1,19 @@
+# Test Plan (Summary)
+
+Application: https://automationexercise.com
+Tester: Yash Vyas
+Environment: Window , Firefox
+
+Scope: Registration, login, products and search, reviews, cart, checkout, contact us.
+
+Out of scope: Performance, security testing, automation.
+
+Approach: Manual functional testing (positive and negative), using boundary value analysis and error guessing. Cross-browser check on 2 browsers.
+
+Assumption: No official requirements existed, so requirements were derived from the site and standard practices.
+
+Tools: Google sheets GitHub Issues (bugs), Git/GitHub.
+
+Entry criteria: Site accessible, requirements and test cases ready.
+Exit criteria: All test cases executed, all failures logged as bugs.
+Severity levels: Critical, Major, Minor, Trivial.
