@@ -1,8 +1,8 @@
 # Requirements: Automation Exercise E-commerce Website
 
 **Application under test:** https://automationexercise.com
-**Prepared by:** Yashuu
-**Version:** 1.0 
+**Prepared by:** Yash vyas
+**Version:** 1.0
 
 ---
 
@@ -15,6 +15,8 @@
 | REQ-03 | User can complete the account form with title, password, date of birth, first name, last name, address, country, state, city, zip code and mobile number. 
 | REQ-04 | Mandatory fields must show a validation message when left blank. 
 | REQ-05 | After successful registration, system must show an "Account Created" confirmation.
+| REQ-25 | Password must be at least 8 characters long.
+| REQ-26 | Password must contain at least one uppercase letter, one lowercase letter, one number and one special character.
 
 
 ## 2. Login and Logout
@@ -24,7 +26,8 @@
 | REQ-06 | Registered user can log in with a valid email and password. 
 | REQ-07 | System must show an error message for incorrect email or password. 
 | REQ-08 | Logged-in user's name must be displayed in the header. 
-| REQ-09 | User can log out and is redirected to the login page. 
+| REQ-09 | User can log out and is redirected to the login page.
+ 
 
 ## 3. Products and Search
 
@@ -36,7 +39,11 @@
 | REQ-13 | User can filter products by category. 
 | REQ-14 | User can filter products by brand. 
 | REQ-15 | User can open a product detail page showing name, category, price, availability, condition and brand. 
-| REQ-16 | User can submit a review on the product detail page. 
+| REQ-16 | User can submit a review on the product detail page.
+| REQ-27 | Only a logged-in user can submit a product review.
+| REQ-28 | A submitted review must be displayed on the product detail page
+(or the user must be told it is awaiting approval).
+ 
 
 ## 4. Cart
 
@@ -51,9 +58,8 @@
 
 | ID | Requirement |
 |----|-------------|
-| REQ-21 | Logged-in user can proceed to checkout and review delivery address and order items. 
+| REQ-21 | Logged-in user can proceed to checkout and review delivery address and order items.
 | REQ-22 | Guest user must be asked to register or log in before checkout. 
 | REQ-23 | User can add an order comment during checkout. 
 | REQ-24 | User can enter card details and place the order. 
-| REQ-25 | System must show an order confirmation after successful payment. 
-| REQ-26 | User can download the invoice after the order is placed.
+
